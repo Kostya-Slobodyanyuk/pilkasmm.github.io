@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>PilkaSMM</title>
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:300" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+           $("#menu").on("click","a", function (event) {
+               event.preventDefault();
+               var id  = $(this).attr('href'),
+                   top = $(id).offset().top;
+               $('body,html').animate({scrollTop: top}, 750);
+           });
+       });
+       </script>
+</head>
+<body>
+
+    <header class="col-12">
+        <div class="col-xs-3 col-sm-4 col-4 justify-center head-phone">
+            <span>+38(097)121-68-01</span>
+        </div>
+        <div class="col-xs-9 col-sm-8 col-8 justify-center">
+            <nav id="menu">
+                <a href="#why">Чому ми?</a>
+                <a href="#how">Як ми працюємо?</a>
+                <a href="#price">Прайс</a>
+                <a href="#team">Команда</a>
+            </nav>
+        </div>
+    </header> 
+    
+    <main>
+        
+        <div class="main-video">
+           <video class="col-12" autoplay muted loop>
+               <source src="images/на сайт.mp4" type="video/mp4">
+           </video>
+        </div>
+        <div class="justify-center col-12 logo">
+            <img src="images/Лого Pilka9.png" alt="PilkaSMM">
+        </div>
+        <div class="col-12 justify-center main-button">
+            <button>Замовити</button>
+        </div>
+
+        <div id="why"></div>
+
+        <div class="why">
+            <h1 class="col-12 justify-center">Чому варто обрати нас?</h1>
+            <h2 class="col-12 justify-center">Молода згуртована команда, кожен учасник якої фанатіє від своєї роботи.</h2>
+            <div class="row justify-center">
+                <div class="col-xs-12 col-sm-6 col-4">
+                    <div class="why-card">
+                        <div>
+                            <img src="images/icons/icons8-trust-96.png" alt="icon">
+                        </div>
+                        <div>
+                            <h2>Створюємо унікальний контент під бренд з мінімальною участю клієнта.</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-4">
+                    <div class="why-card row col-12">
+                        <div>
+                            <img src="images/icons/icons8-increase-96.png" alt="icon">
+                        </div>
+                        <div>
+                            <h2>Розробляємо індивідуальну стратегію просування. Ніяких типових рішень.</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-4">
+                    <div class="why-card">
+                        <div>
+                            <img src="images/icons/icons8-address-book-96.png" alt="icon">
+                        </div>
+                        <div>
+                            <h2>Миттєва комунікація з вашими підписниками за нашими рек-листами.</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-4">
+                    <div class="why-card">
+                        <div>
+                            <img src="images/icons/icons8-idea-96.png" alt="icon">
+                        </div>
+                        <div>
+                            <h2>Впроваджуємо лише трендові та дієві технології.</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-4">
+                    <div class="why-card">
+                        <div>
+                            <img src="images/icons/icons8-approval-96.png" alt="icon">
+                        </div>
+                        <div>
+                            <h2>Використовуємо “білі” методи просування.</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-4">
+                    <div class="why-card">
+                        <div>
+                            <img src="images/icons/icons8-voice-recognition-96.png" alt="icon">
+                        </div>
+                        <div>
+                            <h2>Приводимо лише “живих” та активних підписників.</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-4">
+                    <div class="why-card">
+                        <div>
+                            <img src="images/icons/icons8-statistics-96.png" alt="icon">
+                        </div>
+                        <div>
+                            <h2>Ми практики. Вже 4 роки досвіду роботи в структурі e-commerce.</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-4">
+                    <div class="why-card">
+                        <div>
+                            <img src="images/icons/icons8-advertising-96.png" alt="icon">
+                        </div>
+                        <div>
+                            <h2>Працюємо над розвитком та покращенням репутації бренду.</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-4">
+                    <div class="why-card">
+                        <div>
+                            <img src="images/icons/icons8-goal-96.png" alt="icon">
+                        </div>
+                        <div>
+                            <h2>Знаходимо вашу “родзинку” та привертаємо увагу саме до неї.</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+
+        <div class="phone col-12 justify-center">
+            <span>Введіть номер</span>
+            <input type="tel" placeholder="(012)-345-67-89">
+            <button id="how">Відправити</button>
+        </div>
+
+        <div class="how row">
+            <h1 class="col-12 justify-center">Як ми працюємо?</h1>
+            <div class="col-xs-12 col-sm-4 col-4 justify-center">
+                <div class="how-card how-image1">
+                    <h2>Крок 1</h2>
+                    <p>Задамо декілька питань про особливості Вашого бренду</p>
+                    <ul>
+                        <li>Визначаємо ЦА та аналізуємо Ваших конкурентів.</li>
+                        <li>Вибираємо соцмережі для роботи. Створюємо спільноти.</li>
+                        <li>Створюємо дизайн та наповнюємо контентом.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-4 justify-center">
+                <div class="how-card how-image2">
+                    <h2>Крок 2</h2>
+                    <p>Використовуємо та створюємо лише унікальний контент</p>
+                    <ul>
+                        <li>Залучаємо нових учасників спільнот за допомогою таргетованої реклами, передових технологій та лідерів думок Вашої ніші.</li>
+                        <li>Ведення соцмереж: наповнення та комунікації</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-4 justify-center ">
+                <div class="how-card how-image3">
+                    <h2>Крок 3</h2>
+                    <p>Щомісяця надаємо Вам звітність та статистику</p>
+                    <ul>
+                        <li>Робота з учасниками спільноти. Підтримуємо інтерес та лояльність.</li>
+                        <li>Повідомляємо про події в Вашій компанії.</li>
+                        <li>Працюємо над збільшенням довіри.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="phone col-12 justify-center">
+            <span>Введіть номер</span>
+            <input type="tel" placeholder="(012)-345-67-89">
+            <button>Відправити</button>
+        </div>
+
+        <span id="price"></span>
+        
+        <div class="row price col-12">
+            <h1 class="col-12 justify-center">Шо-Па-Чьом</h1>
+            <div class="col-xs-12 col-sm-6 col-4">
+                <div class="card">
+                    <h2>Старт</h2>
+                    <ul>
+                        <li>Аналіз ЦА</li>
+                        <li>Розробка контент-плану на 1 місяць</li>
+                        <li>Побудова стратегії ведення соцмереж</li>
+                    </ul>
+                    <h2>2500грн</h2>
+                    <button class="price-button">Замовити</button>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-4">
+                <div class="card">
+                    <h2>Бізнес</h2>
+                    <ul>
+                        <li>Аналіз ЦА</li>
+                        <li>Розробка контент-плану</li>
+                        <li>Побудова стратегії ведення соцмереж</li>
+                        <li>Формування корпоративного стилю</li>
+                        <li>Таргетинг та ретаргетинг</li>
+                    </ul>
+                    <h2>9000грн</h2>
+                    <button class="price-button">Замовити</button>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-4">
+                <div class="card">
+                    <h2>Персональний</h2>
+                    <ul>
+                        <li>Аналіз ЦА</li>
+                        <li>Розробка контент-плану</li>
+                        <li>Дизайн соцмереж</li>
+                    </ul>
+                    <h2>4000грн</h2>
+                    <button class="price-button">Замовити</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row team justify-center" id="team">
+        <h1 class="col-12 justify-center" >Каманда</h1>
+            <div class="col-xs-12 col-sm-6 col-3">
+                <div class="player">
+                    <img src="images/IMG_7945.jpg" alt="playe1">
+                    <h2>Вікторія</h2>
+                    <span>Живе світом соцмереж</span>
+                    <p>Ходять чутки, що навіть розбудивши серед ночі, Вікторія все рівно пам’ятає в який день тижня, та о котрій годині, потрібно опублікувати: рекламний, розважальний, та освітній пости.</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-3">
+                <div class="player">
+                    <img src="images/IMG_7970.JPG" alt="playe1">
+                    <h2>Костя</h2>
+                    <span>Справжній гуру коду</span>
+                    <p>Той хто здатний перетворити макет сайту у  живий проект, таким яким він і задумувався. Знає багато незрозумілих слів: HTML, CSS, JavaScript, Framework…. Інколи заміть «так», чи «ні» в чат ставить цифри: «0», чи «1».</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-3">
+                <div class="player">
+                    <img src="images/IMG_6826.jpg" alt="playe1">
+                    <h2>Яна</h2>
+                    <p>Та, хто однією фотографією може сказати більше, ніж дехто цілою книгою. Фотограф з прекрасними навичками роботи, здатна працювати в будь-якому стилі фотомистецтва: реклама, художня фотографія, портрет, на ін..</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-3">
+                <div class="player">
+                    <img src="images/Паша.jpg" alt="playe1">
+                    <h2>Паша</h2>
+                    <span>Дизайнер слів та скульптор речень</span>
+                    <p>Може написати текст практично на будь-яку тему та у будь-якому стилі письма: від гумористичних сценаріїв для Youtube, до серйозних статей про економічну ситуацію в Євросоюзі.</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-links justify-center col-12">
+            <nav>
+                <a href="#">Terms and conditions</a>
+                <a href="#">Contacts</a>
+                <a href="#">Sitemap</a>
+                <a href="#">Cookies policy</a>
+            </nav>
+        </div>
+        <span class="col-12 justify-center">All rights reserved © 2018</span>
+        <div class="col-12 justify-center">Icons made by <a href="http://www.freepik.com" title="Freepik"> Freepik </a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com </a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank"> CC 3.0 BY </a></div>
+    </footer>
+
+</body>
+</html>
