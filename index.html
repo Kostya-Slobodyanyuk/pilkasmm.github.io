@@ -282,11 +282,13 @@
             <a>pilkasmm@gmail.com</a>
         </div>
         <span class="col-12 justify-center">PilkaSMMstudio © 2018</span>
-        <form id="form">
-                <input type="text" name="name" required="required"/>
-                <input type="text" name="phone" required="required"/>
-                <input type="submit" value="Заказать звонок"/>
-            </form>
+        <form action="mail.php" method="post">
+                <input type="hidden" name="action" value="send">
+                Ваше имя: <input type="text" name="fio"><br>
+                Ваш e-mail: <input type="text" name="email"><br>
+                Сообщение: <textarea name="mess"></textarea><br>
+                <input type="submit" value="Отправить!">
+                </form>
     </footer>
     
 </body>
