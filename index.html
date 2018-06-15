@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <title>PilkaSMM</title>
@@ -19,7 +19,6 @@
        </script>
 </head>
 <body>
-
     <header class="col-12">
         <div class="col-xs-3 col-sm-4 col-4 justify-center head-phone">
             <span>+38(097)121-68-01</span>
@@ -30,13 +29,14 @@
                 <a href="#how">Як ми працюємо?</a>
                 <a href="#price">Шо-Па-Чьом</a>
                 <a href="#team">Каманда</a>
+                <a class="toTop" href="#top"><img src="images/icons/icons8-thick-arrow-pointing-up-64.png" alt=""></a>
             </nav>
         </div>
     </header> 
     
     <main>
         
-        <div class="main-video">
+        <div class="main-video"  id="top">
            <video class="col-12" autoplay muted loop>
                <source src="images/на сайт.mp4" type="video/mp4">
            </video>
@@ -148,9 +148,9 @@
         </div>
 
         <div class="phone col-12 justify-center">
-            <span>Введіть номер</span>
-            <input type="tel" placeholder="(012)-345-67-89">
-            <button id="how">Відправити</button>
+                <span >Замовити безкоштовну консультацію</span>
+                <input type="tel" placeholder="(012)-345-67-89">
+                <button id="how">Відправити</button>
         </div>
 
         <div class="how row">
@@ -186,17 +186,11 @@
                         <li>Працюємо над збільшенням довіри.</li>
                     </ul>
                 </div>
-            </div>
+            </div>   
         </div>
 
-        <div class="phone col-12 justify-center">
-            <span>Введіть номер</span>
-            <input type="tel" placeholder="(012)-345-67-89">
-            <button>Відправити</button>
-        </div>
+        <span id="price" class="col-12" style="padding-bottom: 50px"></span>
 
-        <span id="price"></span>
-        
         <div class="row price col-12">
             <h1 class="col-12 justify-center">Шо-Па-Чьом</h1>
             <div class="col-xs-12 col-sm-6 col-4">
@@ -234,12 +228,12 @@
                         <li>Дизайн соцмереж</li>
                     </ul>
                     <h2>4000грн</h2>
-                    <button class="price-button">Замовити</button>
+                    <button class="price-button" id="team">Замовити</button>
                 </div>
             </div>
         </div>
 
-        <div class="row team justify-center" id="team">
+        <div class="row team justify-center">
         <h1 class="col-12 justify-center" >Каманда</h1>
             <div class="col-xs-12 col-sm-6 col-3">
                 <div class="player">
@@ -273,21 +267,27 @@
                 </div>
             </div>
         </div>
-
+        
+        <div class="phone col-12 justify-center">
+                <span>Замовити дзвінок</span>
+                <input type="tel" placeholder="(012)-345-67-89">
+                <button>Відправити</button>
+            </div>
     </main>
 
     <footer>
         <div class="footer-links justify-center col-12">
-            <nav>
-                <a href="#">Terms and conditions</a>
-                <a href="#">Contacts</a>
-                <a href="#">Sitemap</a>
-                <a href="#">Cookies policy</a>
-            </nav>
+            <a href="https://www.facebook.com/PIŁKA-128209547979712/" target="blank">Facebook</a>
+            <a href="https://www.instagram.com/pilkasmm/" target="blank">Instagram</a>
+            <a>pilkasmm@gmail.com</a>
         </div>
-        <span class="col-12 justify-center">All rights reserved © 2018</span>
-        <div class="col-12 justify-center">Icons made by <a href="http://www.freepik.com" title="Freepik"> Freepik </a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com </a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank"> CC 3.0 BY </a></div>
+        <span class="col-12 justify-center">PilkaSMMstudio © 2018</span>
+        <form id="form">
+                <input type="text" name="name" required="required"/>
+                <input type="text" name="phone" required="required"/>
+                <input type="submit" value="Заказать звонок"/>
+            </form>
     </footer>
-
+    
 </body>
 </html>
