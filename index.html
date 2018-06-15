@@ -282,13 +282,20 @@
             <a>pilkasmm@gmail.com</a>
         </div>
         <span class="col-12 justify-center">PilkaSMMstudio © 2018</span>
-        <form action="mail.php" method="post">
-                <input type="hidden" name="action" value="send">
-                Ваше имя: <input type="text" name="fio"><br>
-                Ваш e-mail: <input type="text" name="email"><br>
-                Сообщение: <textarea name="mess"></textarea><br>
-                <input type="submit" value="Отправить!">
-                </form>
+        
+ 
+<form action="mail.php" method="post">
+Ваше имя:<br>
+<input type="text" name="person">
+<br>
+Ваш e-mail:<br>
+<input type="text" name="email">
+<br>
+Вопрос администратору:<br>
+<textarea name="question"  cols=40 rows=5></textarea>
+<br>
+<input type="submit" name="okbutton" value="OK">
+</form>
     </footer>
     
 </body>
