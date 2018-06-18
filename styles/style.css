@@ -478,7 +478,7 @@ header, main, footer {
 .card ul {
   margin: 10% 0 10% 0;
   line-height: 30px;
-  height: 40%;
+  
   padding-bottom: 40px;
   border-right: #066781 1px solid;
   border-left: #066781 1px solid;
@@ -516,14 +516,16 @@ header, main, footer {
 
 .price-button:hover {
   -webkit-box-shadow: 0px 5px 47px -6px #066781;
-          box-shadow: 0px 5px 47px -6px #066781;
+  box-shadow: 0px 5px 47px -6px #066781;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
   -webkit-transform: translateY(-5px);
-      -ms-transform: translateY(-5px);
-          transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
   cursor: pointer;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
 }
 
 .player {
