@@ -171,6 +171,7 @@
 }
 
  header {
+    top: 0;
     position: fixed;
     background-color: #066781;
     padding: 16px;
@@ -182,8 +183,8 @@
             box-shadow: 0px 10px 47px -6px #066781;
  }
 
- .head-phone {
-   padding: 0;
+ .head-phone span{
+   padding: 0 10px 0 10px;
  }
 
  header nav a {
@@ -219,17 +220,19 @@ header, main, footer {
 }
 
 .main-video video {
-    position: absolute;
     padding: 0;
-    z-index: -1;
     -webkit-box-shadow: 0px 10px 47px -6px #066781;
-            box-shadow: 0px 10px 47px -6px #066781;
+    box-shadow: 0px 10px 47px -6px #066781;
     margin-top: -50px;
+ }
+
+ .logo {
+   z-index: 100;
+   margin-top: -600px;
  }
 
  .logo img {
     max-height: 400px;
-    margin-top: 12%; 
  }
 
  .main-button button{
