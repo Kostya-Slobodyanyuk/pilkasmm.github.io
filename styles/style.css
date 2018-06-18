@@ -201,15 +201,17 @@
     transition: 0.3s;
     color: #066781;
     background-color: #ffc6d9;
+    border-radius: 40px;
     -webkit-transform: translateY(-5px);
-        -ms-transform: translateY(-5px);
-            transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
     cursor: pointer;
- }
-
- header nav a:last-child {
-    margin-right: 0;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
 }
+
 
 header, main, footer {
     font-family: 'Exo 2', sans-serif;
