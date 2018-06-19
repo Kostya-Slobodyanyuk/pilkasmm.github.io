@@ -170,6 +170,10 @@
             justify-content: center;
 }
 
+ body {
+   font-size: 20px;
+ }
+
  header {
     top: 0;
     position: fixed;
@@ -177,7 +181,6 @@
     padding: 16px;
     z-index: 1;
     width: 100%;
-    font-size: 20px;
     color: #ffc6d9;
     -webkit-box-shadow: 0px 10px 47px -6px #066781;
             box-shadow: 0px 10px 47px -6px #066781;
@@ -224,6 +227,7 @@ header, main, footer {
     -webkit-box-shadow: 0px 10px 47px -6px #066781;
     box-shadow: 0px 10px 47px -6px #066781;
     margin-top: -50px;
+    z-index: -100;
  }
 
  .logo {
@@ -239,9 +243,10 @@ header, main, footer {
      margin-top: 50px;
      padding: 10px 60px 10px 60px;
      border-radius: 70px;
-     background-color: #066781;
+     font-weight: bold;
+     background-color: #ffc6d9;
      border-color: #ff74a5;
-     color: #ffc6d9;
+     color: #066781;
     font-family: 'Exo 2', sans-serif;
     font-size: 20px;
     -webkit-transition: 0.3s;
@@ -330,7 +335,10 @@ header, main, footer {
 
  .phone button{
     padding: 10px 60px 10px 60px;
-    background-color: #066781;
+    background-color: #ffc6d9;
+    border-color: #ff74a5;
+    color: #066781;
+    font-weight: bold;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
@@ -448,7 +456,7 @@ header, main, footer {
 }
 
  .price {
-    padding: 0% 10% 0 10%;
+    padding: 0% 10% 2% 10%;
     color: #066781;
  }
 
@@ -509,9 +517,10 @@ header, main, footer {
   margin-bottom: 20px;
   padding: 10px 50px 10px 50px;
   border-radius: 50px;
-  background-color: #066781;
-  border-color: #ffc6d9;
-  color: #ffc6d9;
+  background-color: #ffc6d9;
+  border-color: #ff74a5;
+  color: #066781;
+  font-weight: bold;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
