@@ -216,7 +216,6 @@
     -o-border-radius: 40px;
 }
 
-
 header, main, footer {
     font-family: 'Exo 2', sans-serif;
     font-weight: bold;
@@ -623,4 +622,5 @@ footer span {
   position: fixed;
   top: 80%;
   left: 90%;
+
 }
