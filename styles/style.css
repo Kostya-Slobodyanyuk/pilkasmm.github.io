@@ -505,7 +505,6 @@ header, main, footer {
   -o-transition: 0.3s;
   transition: 0.3s;
   padding: 0px 40px 0 40px;
-  margin-bottom: 10px;
   font-size: 20px;
   background-color: #ffc6d9;
   color: #066781;
@@ -516,6 +515,10 @@ header, main, footer {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 
+}
+
+.card-price {
+  margin-bottom: 30px;
 }
 
 .card h2 {
