@@ -88,16 +88,16 @@
   
   @media(min-width: 768px) and (max-width: 990px) {
     body {
-      font-size: 30px;
+      font-size: 35px;
     }
     .main-button button{
-      font-size: 30px;
+      font-size: 35px;
     }
     .why-card {
       font-size: 20px;
     }
     .phone {
-      font-size: 30px;
+      font-size: 35px;
     }
     .how-card {
       font-size: 30px;
@@ -106,7 +106,7 @@
       font-size: 30px;
     }
     .player span {
-      font-size: 30px;
+      font-size: 35px;
     }
 
 
