@@ -482,7 +482,7 @@ header, main, footer {
 }
 
  .price {
-    padding: 0% 10% 2% 10%;
+    padding: 0% 10% 0% 10%;
     color: #066781;
     text-align: center;
  }
@@ -504,13 +504,14 @@ header, main, footer {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-  padding: 0px 50px 0 50px;
+  padding: 0px 40px 0 40px;
   font-size: 20px;
 }
 
 .card h2 {
   text-align: center;
   padding: 5px;
+  margin: 10px 0 10px 0;
   border-radius: 100px;
   border-right: #066781 2px solid;
   border-bottom: #066781 2px solid;
@@ -520,8 +521,7 @@ header, main, footer {
 .card ul {
   margin: 10% 0 10% 0;
   line-height: 30px;
-  
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   border-right: #066781 1px solid;
   border-left: #066781 1px solid;
   border-radius: 20px;
