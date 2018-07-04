@@ -88,7 +88,7 @@
   
   @media(min-width: 768px) and (max-width: 990px) {
     body {
-      font-size: 35px;
+      font-size: 30px;
     }
     .main-button button{
       font-size: 35px;
@@ -97,7 +97,7 @@
       font-size: 20px;
     }
     .phone {
-      font-size: 35px;
+      font-size: 20px;
     }
     .how-card {
       font-size: 30px;
@@ -106,7 +106,7 @@
       font-size: 30px;
     }
     .player span {
-      font-size: 35px;
+      font-size: 30px;
     }
 
 
@@ -161,7 +161,7 @@
   
   @media(max-width: 768px) {
     body {
-      font-size: 35px;
+      font-size: 30px;
     }
     .main-button button{
       font-size: 35px;
@@ -170,7 +170,7 @@
       font-size: 20px;
     }
     .phone {
-      font-size: 35px;
+      font-size: 20px;
     }
     .how-card {
       font-size: 30px;
@@ -179,7 +179,7 @@
       font-size: 30px;
     }
     .player span {
-      font-size: 35px;
+      font-size: 30px;
     }
      .col-xs-1 {
       width: 8.333333%;
