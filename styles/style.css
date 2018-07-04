@@ -160,6 +160,27 @@
   }
   
   @media(max-width: 768px) {
+    body {
+      font-size: 35px;
+    }
+    .main-button button{
+      font-size: 35px;
+    }
+    .why-card {
+      font-size: 20px;
+    }
+    .phone {
+      font-size: 35px;
+    }
+    .how-card {
+      font-size: 30px;
+    }
+    .card {
+      font-size: 30px;
+    }
+    .player span {
+      font-size: 35px;
+    }
      .col-xs-1 {
       width: 8.333333%;
     }
