@@ -139,6 +139,19 @@
   }
   
   @media(max-width: 768px) {
+
+    .team {
+      font-size: 35px;
+    }
+    .player span {
+      font-size: 35px;
+    }
+    .how-card {
+      font-size: 35px;
+    }
+    .card {
+      font-size: 30px;
+    }
     
      .col-xs-1 {
       width: 8.333333%;
