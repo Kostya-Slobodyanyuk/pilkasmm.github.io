@@ -171,7 +171,7 @@
 }
 
  body {
-   font-size: 20px;
+   font-size: 23px;
  }
 
  header {
@@ -254,7 +254,7 @@ header, main, footer {
      color: #066781;
      z-index: 100;
     font-family: 'Exo 2', sans-serif;
-    font-size: 20px;
+    font-size: 23px;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
@@ -310,7 +310,7 @@ header, main, footer {
   display: flex;
   width: 100%;
   height: 100%;
-  font-size: 15px;
+  font-size: 17px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -349,11 +349,11 @@ header, main, footer {
 }
 
  .phone {
-     margin-top: 20px;
+     margin-top: 10px;
      background-color: #066781;
      -webkit-box-shadow: 0px 3px 30px 0px #066781;
              box-shadow: 0px 3px 30px 0px #066781;
-     font-size: 20px;
+     font-size: 23px;
      -webkit-box-align: center;
          -ms-flex-align: center;
              align-items: center;
@@ -411,7 +411,7 @@ header, main, footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 20px;
+  font-size: 23px;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -435,11 +435,12 @@ header, main, footer {
   background-size: cover;
 }
 
-.how-card h2, ul{
+.how-card h2{
   margin-top: 25%;
 }
 
 .how-card ul {
+  margin-top: 20%;
   display: none;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -482,7 +483,7 @@ header, main, footer {
 }
 
  .price {
-    padding: 0% 10% 0% 10%;
+    padding: 0% 8% 0% 8%;
     color: #066781;
     text-align: center;
  }
@@ -504,8 +505,8 @@ header, main, footer {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-  padding: 0px 40px 0 40px;
-  font-size: 20px;
+  padding: 0px 20px 0 20px;
+  font-size: 23px;
   background-color: #ffc6d9;
   color: #066781;
   box-shadow: 0px 20px 50px -5px #066781;
@@ -592,14 +593,18 @@ header, main, footer {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: 0 10px 0 10px;
-  border-radius: 100px 100px 0 0;
+  padding: 0 5px 0 5px;
+  border-radius: 200px 200px 0 0;
   text-align: center;
   transition: 0.3s;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
+  -webkit-border-radius: 200px 200px 0 0;
+  -moz-border-radius: 200px 200px 0 0;
+  -ms-border-radius: 200px 200px 0 0;
+  -o-border-radius: 200px 200px 0 0;
 }
     
 .player:hover {
@@ -614,20 +619,24 @@ header, main, footer {
 }
 
 .player img {
-  height: 200px;
-  border-radius: 100px;
+  height: 245px;
+  border-radius: 200px;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
   background-size: cover;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  -ms-border-radius: 200px;
+  -o-border-radius: 200px;
 }
 
 .player span {
-  font-size: 20px;
+  font-size: 23px;
 }
 
 .team {
-  padding: 0 10% 2% 10%;
+  padding: 0 3% 2% 3%;
   color: #066781;
   transition: 0.3s;
   -webkit-transition: 0.3s;
